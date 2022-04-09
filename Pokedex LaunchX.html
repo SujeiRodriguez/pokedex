@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chartset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Patua+One&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header class="encabezado">
+        <img src="./imagenes/logopokemon.png"  alt="Logo Pokemon" id="pokeLogo" width="150px">
+    <h1>Pokédex LaunchX</h1>
+    </header>
+
+
+<div class="pokedex">
+        
+    <div class="pokedexDer">
+        <div id="fondoparalelograma4"></div>
+        <div id="fondorec"></div>
+
+        <div class="fondo3">
+            <div class="fondo4">
+                <div id="rec"></div>
+                <div id="paralelograma4"></div>
+                <div id="paralelograma5"></div>
+                <div id="rectangulo2"></div>
+
+                <div class="pantallaint2">
+                    <div class="stats">
+                        <div id="pokeHP"></div>
+                        <div id="pokeAttack"></div>
+                        <div id="pokeDefense"></div>
+                        <div id="pokeSpecialAttack"></div>
+                        <div id="pokeSpecialDefense"></div>
+                        <div id="pokeSpeed"></div>
+                    </div>
+
+                </div>
+
+                <div class="teclado">
+                 <button>0 <br> ABC</button>
+                 <button>1 <br> DEF</button>
+                 <button>2 <br> GHI</button>
+                 <button>3 <br> JKL</button>
+                 <button>4 <br> MNÑ</button>
+                 <button>5 <br> OPQ</button>
+                 <button>6 <br> RST</button>
+                 <button>7 <br> UVW</button>
+                 <button>8 <br> XYZ</button>
+                 <button>9 <br> #$%</button>
+                </div>
+
+                <div class="botn">
+                    <button></button>
+                    <button></button>
+                   </div>
+
+                <button onclick = "fetchPokemon()" class="botonNegro3"></button>
+                <button onclick = "fetchPokemon()" class="botonNegro4"></button>
+
+                <div id="luzam2">
+                    <div class="brillo4"></div>
+                </div>
+
+                <div class="pantallaint3">
+                    <div id="pokeAltura"><span></span></div>
+                </div>
+                <div class="pantallaint4">
+                    <div id="pokePeso"><span></span></div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="pokedexIzq">
+        <div class="fondo1">
+            <div class="fondo2"></div>
+                
+                <div id="paralelograma"></div>
+                <div id="paralelograma2"></div>
+                <div id="paralelograma3"></div>
+                <div id="rectangulo"></div>
+                <div class="borde">
+                    <div id="luzaz">
+                        <div class="brillo"></div>
+                    </div>
+                </div>
+                <div id="luzrj">
+                    <div class="brillo2"></div>
+                </div>
+                <div id="luzam">
+                    <div class="brillo2"></div>
+                </div>
+                <div id="luzvd">
+                    <div class="brillo2"></div>
+                </div>
+           
+            
+                <div class="pantalla">
+                    <div id="triangulo-der"></div>
+                    <div class="led1">
+                        <div class="brillo2"></div>
+                    </div>
+                    <div class="led2">
+                        <div class="brillo2"></div>
+                    </div>
+                
+                    <div class="pantallaint" id="pantalla1">
+                        <div id="pokeNombre" class="electric"><span></span></div>
+                        <div id="pokeId"><span></span></div>
+                        <div id="poketipo1" class="electric"><span></span></div>
+                        <div id="poketipo2" class="none"><span></span></div>
+                        
+                        <div id="pokeHabitat"><span></span></div>
+        
+                        <img src="./imagenes/pokeball.png"  alt="Pokemon" id="pokeImg" width="130px"><br>
+                    </div>
+
+                    <div class="led3">
+                        <div class="brillo3"></div>
+                    </div>
+
+                    <div class="rejillas" id="rej1"></div>
+                    <div class="rejillas" id="rej2"></div>
+                    <div class="rejillas" id="rej3"></div>
+                    <div class="rejillas" id="rej4"></div>
+                </div>
+
+
+                <div class="entrada">
+                    <input type="text" placeholder="pokémon" id="pokeName" name="pokeName" ><br>
+                </div>
+
+                <div class="boton">
+                    <button  class="botonNegro" Id="searchPokemon"></button>
+                </div>
+
+                <button class="botonRojo"></button>
+                <button class="botonAzul"></button>
+
+            </div>    
+
+                <div class="prepad">
+                    <div class="pad"> 
+                        <button class="pad1"></button>
+                        <button class="pad2"></button>
+                        <button class="pad3"></button>
+                        <button class="pad4"></button>
+                    </div>  
+                </div> 
+             
+        </div>
+    </div>
+
+
+ 
+</div>
+
+
+</body>
+
+<footer>
+    <script src = "./Jquery/jquery-1.6.3.min.js"></script>
+    <script src = "./pokedexLaunchX.js"></script>
+</footer>
+
+</html>
